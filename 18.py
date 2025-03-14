@@ -13,3 +13,11 @@ def avg():
     print("The average of the numbers is : ", average)
 
 avg()
+
+
+# Function with arguments
+
+def GoodMorning(name):
+    print("Good Morning", name)
+
+GoodMorning("Shubh")
