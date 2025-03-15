@@ -21,3 +21,48 @@ def GoodMorning(name):
     print("Good Morning", name)
 
 GoodMorning("Shubh")
+
+
+# this function will return the factorial of the number
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+
+num = int(input("Enter the number :"))
+print("The facttorial of the number is :", factorial(num))
+
+
+# this function will return the sum of the numbers
+def sum(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return n + sum(n-1)
+
+num = int(input("Enter the number : "))
+print("The sum of the numbers is :", sum(num))
+    
+
+# this function will convert the inches to cm
+def inch_cm(inch):
+    return inch * 2.54
+
+n = int(input("Enter the number in inches : "))
+print(f"The number in cm is : {inch_cm(n)} cm")
+
+
+# this function will remove the word and also strip the word from the list
+def rem(l, word):
+    n = []
+    for item in l:
+        if not(item == word):
+            n.append(item.strip(word))
+    return n
+
+l = ["Shubh","Rohan","Shubham","an"]
+print(rem(l, "an"))
