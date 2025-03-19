@@ -1,1 +1,1 @@
-this file is made to learn the concept of append in file handlingthis file is made to learn the concept of append in file handling
+this file is made to learn the concept of append in file handling
